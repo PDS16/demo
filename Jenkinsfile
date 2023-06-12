@@ -4,7 +4,7 @@
                 stage ('Build') {  
                     steps {  
                             echo 'Running build phase...'
-                            ./a.out
+                            sh './a.out'
                     }  
                 }  
         }  
